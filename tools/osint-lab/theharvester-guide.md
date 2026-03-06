@@ -1,18 +1,16 @@
 # TheHarvester – Coleta de Informações Públicas (OSINT)
 
-O TheHarvester é uma ferramenta de **OSINT** que permite coletar informações públicas sobre domínios, emails e subdomínios.
+Ferramenta de OSINT para **coletar emails, subdomínios e hosts públicos**.
 
-## Exemplos de uso
+## Exemplos de Uso
 
-1. Coletar emails de um domínio:
 ```bash
+# Coletar emails
+theharvester -d exemplo.com -b google
 
-
-Descobrir subdomínios:
-
+# Descobrir subdomínios
 theharvester -d exemplo.com -b bing
 
-
-Buscar hosts e informações adicionais:
-
+# Coletar todos os dados disponíveis
 theharvester -d exemplo.com -b all
+
