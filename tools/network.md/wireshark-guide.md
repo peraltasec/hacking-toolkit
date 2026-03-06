@@ -1,6 +1,7 @@
+
 # Wireshark – Captura e Análise de Pacotes
 
-Wireshark captura pacotes e permite analisar **protocolos e tráfego de rede**.
+Wireshark permite **capturar e analisar tráfego de rede** em tempo real.
 
 ## Filtros Comuns
 
@@ -12,10 +13,10 @@ Wireshark captura pacotes e permite analisar **protocolos e tráfego de rede**.
 
 ## Mini-lab
 
-1. Capture tráfego ao abrir sites ou aplicativos.
-2. Use filtros para separar DNS, HTTP e TCP.
-3. Salve os arquivos `.pcap` em `/captures` para referência futura.
+1. Capture tráfego de sites e aplicativos no emulador ou VM.
+2. Use filtros para separar protocolos.
+3. Salve arquivos `.pcap` em `/captures`.
 
-## Dicas 
+## Dicas Éticas
 
-- Capture apenas seu tráfego ou redes autorizadas.
+- Capture apenas redes que você **possa usar legalmente**.
