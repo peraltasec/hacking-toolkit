@@ -1,21 +1,22 @@
-# DVWA – Damn Vulnerable Web Application
+# OWASP Juice Shop
 
-DVWA é um laboratório web **projetado para aprender vulnerabilidades de forma segura**.
+Juice Shop é um laboratório web moderno com **interface realista e exercícios variados**.
 
-## Vulnerabilidades
+## Vulnerabilidades Exercitadas
 
-- SQL Injection (SQLi)
-- Cross-Site Scripting (XSS)
-- CSRF
-- Authentication Bypass
+- Autenticação e autorização fracas
+- Exploração de front-end
+- Segurança de API
+- Captcha e bypass de validação
 
 ## Mini-lab
 
-1. Instale DVWA em uma VM ou XAMPP.
-2. Configure banco de dados.
-3. Teste vulnerabilidades em formulários e login.
-4. Documente todos os testes e resultados.
+1. Instale Juice Shop via Docker ou VM.
+2. Explore vulnerabilidades de login.
+3. Capture tráfego com Wireshark.
+4. Documente passos, resultados e possíveis correções.
 
 ## Dicas Éticas
 
-- Use apenas ambientes de laboratório.
+- Use ambiente de laboratório.
+- Foque em aprendizado ético.
